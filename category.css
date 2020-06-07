@@ -7,6 +7,45 @@
 
 }
 
+.goodImg {
+    border-radius: 30px;
+    border-color: #b0c8f6;
+}
+
+.drum1 {
+    background-image: url("resources/drum1.jpg");
+}
+
+.drum2 {
+    background-image: url("resources/drum2.jpg");
+}
+.drum3 {
+    background-image: url("resources/drum3.jpg");
+}
+.drum4 {
+    background-image: url("resources/drum4.jpg");
+}
+.drum5 {
+    background-image: url("resources/drum5.jpg");
+}
+
+.drum6 {
+    background-image: url("resources/drum6.jpg");
+}
+.drum7 {
+    background-image: url("resources/drum7.jpg");
+}
+.drum8 {
+    background-image: url("resources/drum8.jpg");
+}
+.drum9 {
+    background-image: url("resources/drum9.jpg");
+}
+.drum10 {
+    background-image: url("resources/drum10.jpg");
+}
+
+
 .insideBody {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -19,10 +58,17 @@
 
 .buyBotton {
     align-self: center;
+    padding: 4vw;
 }
 
-.goodImg {
-    border: 2px solid blue;
+
+.btn {
+    font-family: "Arial Black", Gadget, sans-serif;
+    border: none;
+    border-radius: 20px;
+    background-color: #b0c8f6;
+    width: 7vw;
+    height: 3vw;
 }
 
 .good {

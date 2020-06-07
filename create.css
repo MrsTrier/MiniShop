@@ -1,0 +1,80 @@
+
+.container {
+    align-items: center;
+    display: grid;
+    grid-template-rows: 30vh 70vh;
+
+}
+
+.form {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.formControl {
+    padding: 16px;
+    margin: 4px;
+    height: 2vh;
+    width: 30vw;
+}
+
+.formSignin {
+    /*max-width: 600px;*/
+    /*padding: 15px;*/
+    /*margin: 0;*/
+}
+
+
+.text {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: x-large;
+    font-feature-settings: normal;
+    align-self: center;
+}
+
+button {
+    font-family: "Arial Black", Gadget, sans-serif;
+    background-color: lightgray;
+    border: none;
+    font-size: large;
+    font-feature-settings: normal;
+    align-self: center;
+    margin: 8px;
+    width: 31.5vw;
+    height: 5vh;
+}
+
+.basket img{
+    width: 4vw;
+}
+
+.insideHeader {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 30vh;
+    width: 100vw;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightgrey;
+}
+
+
+.mainHead {
+    /*margin-right: 11.5%;*/
+    /*margin-left: 12.5%;*/
+    /*margin-top: 80px;*/
+    height: 30vh;
+}

@@ -1,0 +1,102 @@
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightgrey;
+}
+
+
+.mainHead {
+    /*margin-right: 11.5%;*/
+    /*margin-left: 12.5%;*/
+    /*margin-top: 80px;*/
+    height: 30vh;
+}
+.right {
+    font-family: "Arial Black", Gadget, sans-serif;
+    align-self: center;
+    width: 10vw;
+    background: white;
+}
+
+.left {
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-align: end;
+    margin-left: 26.5vw;
+    width: 8.8vw;
+    background: white;
+}
+
+.navButton {
+    font-size: x-large;
+    font-feature-settings: normal;
+    align-self: center;
+}
+
+.basket img{
+    width: 4vw;
+}
+
+.insideHeader {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 30vh;
+    width: 100vw;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.mainBody {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
+
+    text-align: center;
+
+}
+
+.bodyBlock {
+
+    display: grid;
+    align-content: center;
+
+    height: 35vh;
+    width: 35vw;
+}
+
+.drums {
+    background-image: url("resources/Drumscat.jpg");
+    background-repeat: no-repeat;
+    background-size: 90% 130%;
+    alignment: right;
+}
+
+.percussion {
+    background-repeat: no-repeat;
+    background-size: 90% 130%;
+
+    background-image: url("resources/percursion.jpg");
+    background-position: right;
+}
+
+.tambourine {
+    background-image: url("resources/tambour.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: 90% 130%;
+
+}
